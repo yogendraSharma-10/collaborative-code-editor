@@ -1,0 +1,25 @@
+# -- Web Framework --
+# Flask is a lightweight WSGI web application framework. It is designed to make
+# getting started quick and easy, with the ability to scale up to complex applications.
+Flask==2.3.3
+
+# -- Git Integration --
+# GitPython is a python library used to interact with git repositories.
+# Essential for creating commits, diffs, and managing version history.
+GitPython==3.1.41
+
+# -- HTTP Requests --
+# Requests is a simple, yet elegant, HTTP library. Used for making API calls
+# to other microservices, such as the AI Content Summarizer for generating
+# automatic commit summaries.
+requests==2.31.0
+
+# -- Environment Configuration --
+# python-dotenv reads key-value pairs from a .env file and can set them
+# as environment variables.
+python-dotenv==1.0.1
+
+# -- Production Web Server --
+# Gunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX. It's a
+# pre-fork worker model, used for running the Flask app in production.
+gunicorn==21.2.0
